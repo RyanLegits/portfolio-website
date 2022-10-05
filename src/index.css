@@ -1,4 +1,3 @@
-/* Test */
 * {
   font-family: 'Open Sans', sans-serif;
 
@@ -130,7 +129,7 @@ p {
   flex-direction: column;
 
   min-height: 500px;
-  padding: 1em 10em;
+  padding: 1em 10em 5em 10em;
 
   box-shadow: 0 6px 6px -2px #4c4343;
 
@@ -140,8 +139,9 @@ p {
 .proj-sec-cont,
 .about-sec-cont {
   display: flex;
+  flex-direction: column;
 
-  padding-top: 2em;
+  padding-top: 2em 10em;
 }
 
 .proj-info-cont,
@@ -155,6 +155,7 @@ p {
 .proj-cont {
   display: flex;
 
+  margin-top: 3em;
   padding: 1em;
 
   border-top-right-radius: 2em;
@@ -183,7 +184,6 @@ p {
   justify-content: center;
 }
 
-/* Delete */
 .button {
   font-size: 1.2em;
   font-weight: 600;
@@ -192,6 +192,7 @@ p {
 
   width: 150px;
   height: 40px;
+  margin-left: 1em;
 
   cursor: pointer;
   text-decoration: none;
@@ -230,4 +231,8 @@ p {
 
 .proj-media {
   max-height: 250px;
+}
+
+.buttons-cont {
+  display: flex;
 }
