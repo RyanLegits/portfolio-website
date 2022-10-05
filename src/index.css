@@ -11,7 +11,7 @@ h2 {
   font-size: 3.5em;
   font-weight: 300;
 
-  padding: 0.2em 0;
+  padding: 0.5em 0 1.5em;
 
   color: #4fc3c2;
 }
@@ -31,6 +31,8 @@ h5 {
 }
 
 p {
+  line-height: 1.5em;
+
   padding-bottom: 1em;
 }
 
@@ -59,12 +61,14 @@ p {
   color: #f0fafa;
 }
 .navbar .links {
+  display: flex;
+
   margin-left: auto;
+
+  gap: 1.5em;
 }
 .navbar a {
   font-size: 1.2rem;
-
-  margin-left: 1.5em;
 
   text-decoration: none;
 
@@ -142,6 +146,8 @@ p {
   flex-direction: column;
 
   padding-top: 2em 10em;
+
+  gap: 3em;
 }
 
 .proj-info-cont,
@@ -155,7 +161,6 @@ p {
 .proj-cont {
   display: flex;
 
-  margin-top: 3em;
   padding: 1em;
 
   border-top-right-radius: 2em;
@@ -192,7 +197,6 @@ p {
 
   width: 150px;
   height: 40px;
-  margin-left: 1em;
 
   cursor: pointer;
   text-decoration: none;
@@ -230,9 +234,11 @@ p {
 }
 
 .proj-media {
-  max-height: 250px;
+  max-height: 16em;
 }
 
 .buttons-cont {
   display: flex;
+
+  gap: 1em;
 }

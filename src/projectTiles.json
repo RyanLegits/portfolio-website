@@ -1,22 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Updo",
+    "title": "World Restaurant",
     "desc": [
       {
         "id": 1,
-        "desc": "Thing about Updo 1"
-      },
-      {
-        "id": 2,
-        "desc": "Thing about Updo 2"
-      },
-      {
-        "id": 3,
-        "desc": "Thing about Updo 3"
+        "desc": "A responsive webpage with \"tabbed\" browsing written purely in JavaScript (minimal HTML) as an exercise in JavaScript fundamentals and implemeneted using Webpack and ES6 modules."
       }
     ],
-    "media": "static/media/restaurantImg.e319a2acc04011cf8d53.png",
+    "media": "restaurant-page.png",
     "buttons": [
       {
         "id": 1,
@@ -26,28 +18,24 @@
       {
         "id": 2,
         "buttonName": "Frontend",
-        "buttonLink": "link2"
+        "buttonLink": "https://github.com/RyanLegits/restaurantPage"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Restaurant Website",
+    "title": "Portfolio Website",
     "desc": [
       {
         "id": 1,
-        "desc": "Thing about Restaurant Website 1"
+        "desc": "You're looking at it!"
       },
       {
         "id": 2,
-        "desc": "Thing about Restaurant Website 2"
-      },
-      {
-        "id": 3,
-        "desc": "Thing about Restaurant Website 3"
+        "desc": "Take a look around."
       }
     ],
-    "media": "static/media/restaurantImg.e319a2acc04011cf8d53.png",
+    "media": "portfolio-website.png",
     "buttons": [
       {
         "id": 1,
@@ -57,12 +45,7 @@
       {
         "id": 2,
         "buttonName": "Frontend",
-        "buttonLink": "link2"
-      },
-      {
-        "id": 3,
-        "buttonName": "Backend",
-        "buttonLink": "link3"
+        "buttonLink": "https://github.com/RyanLegits/portfolio-website"
       }
     ]
   }

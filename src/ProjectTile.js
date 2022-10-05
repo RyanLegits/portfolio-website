@@ -1,17 +1,6 @@
-import restaurantImg from './restaurantImg.png';
 import tiles from './projectTiles.json';
 
 const ProjectTile = () => {
-  // Create property lists from JSON data
-  const titles = Array.from(tiles.map((a) => a.id));
-  const title = 'Title';
-  const id = 1;
-  const desc =
-    "This is my really cool project that I'm super proud of! Look at all the cool stuff!";
-  const media = restaurantImg;
-  const buttonName = 'Code';
-  const buttonLink = 'https://github.com/RyanLegits/restaurantPage';
-
   return (
     <div className="projects">
       <h2>Projects</h2>
