@@ -30,6 +30,11 @@ h5 {
   color: #ffd23f;
 }
 
+h6 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
 p {
   line-height: 1.5em;
 
@@ -93,7 +98,7 @@ p {
   padding: 5em 0;
 }
 
-.heroImg {
+.hero-img {
   margin-left: auto;
 }
 
@@ -140,14 +145,17 @@ p {
   align-items: center;
 }
 
-.proj-sec-cont,
-.about-sec-cont {
+.proj-sec-cont {
   display: flex;
   flex-direction: column;
 
   padding-top: 2em 10em;
 
   gap: 3em;
+}
+
+.about-sec-cont {
+  display: flex;
 }
 
 .proj-info-cont,
@@ -182,9 +190,13 @@ p {
 }
 
 .footer {
+  position: relative;
+
   display: flex;
 
   padding: 1em;
+
+  border-top: 1px solid #4c4343;
 
   justify-content: center;
 }

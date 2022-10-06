@@ -1,4 +1,4 @@
-import blob from './blob500.png';
+import heroImg from './heroImg.png';
 
 const Hero = () => {
   return (
@@ -8,8 +8,8 @@ const Hero = () => {
         <h2>Ryan Legits</h2>
         <h3>I create dynamic websites</h3>
       </div>
-      <div className="heroImg">
-        <img className="blob" alt="Code Block" src={blob} />
+      <div className="hero-img">
+        <img className="blob" alt="Code Block" src={heroImg} />
       </div>
     </div>
   );

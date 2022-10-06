@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <nav className="footer">
-      <p>Copyright 2012 Footer</p>
+      <h6>Copyright 2012 Footer</h6>
     </nav>
   );
 };
