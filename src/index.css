@@ -60,11 +60,10 @@ p {
   background-color: #564d4d;
 }
 
-.navbar h1 {
-  font-size: 1.3rem;
-
-  color: #f0fafa;
+.icon {
+  padding: 1em;
 }
+
 .navbar .links {
   display: flex;
 
@@ -86,20 +85,14 @@ p {
 .hero {
   display: flex;
 
-  min-height: 500px;
+  min-height: 31em;
   padding: 1em 10em;
-
-  box-shadow: 0 6px 6px -2px #4c4343;
 
   align-items: center;
 }
 
 .heroText {
   padding: 5em 0;
-}
-
-.hero-img {
-  margin-left: auto;
 }
 
 .hero h2 {
@@ -111,59 +104,32 @@ p {
   color: #f0fafa;
 }
 
+.hero-img {
+  margin-left: auto;
+}
+
 .projects,
-.contact {
-  display: flex;
-
-  background-color: #4c4343;
-
-  justify-content: center;
-}
-
-.projects *,
-.contact * {
-  background-color: #4c4343;
-}
-
 .about {
-  display: flex;
+  background-color: #4c4343;
 
   justify-content: center;
 }
 
 .projects,
+.technologies,
 .about,
 .contact {
   display: flex;
   flex-direction: column;
 
-  min-height: 500px;
   padding: 1em 10em 5em 10em;
-
-  box-shadow: 0 6px 6px -2px #4c4343;
 
   align-items: center;
 }
 
-.proj-sec-cont {
-  display: flex;
-  flex-direction: column;
-
-  padding-top: 2em 10em;
-
-  gap: 3em;
-}
-
-.about-sec-cont {
-  display: flex;
-}
-
-.proj-info-cont,
-.about-info {
-  display: flex;
-  flex-direction: column;
-
-  padding: 2em;
+.projects *,
+.about * {
+  background-color: #4c4343;
 }
 
 .proj-cont {
@@ -181,6 +147,41 @@ p {
   background-color: #564d4d;
 }
 
+.proj-media-cont {
+  display: flex;
+
+  align-items: center;
+}
+
+.proj-media {
+  max-height: 16em;
+}
+
+.technologies-cont {
+  text-align: center;
+}
+
+.proj-sec-cont {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 2em 10em;
+
+  gap: 3em;
+}
+
+.about-sec-cont {
+  display: flex;
+}
+
+.proj-info-cont,
+.about-info-cont {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2em;
+}
+
 .contact-sec-cont {
   display: flex;
   flex-direction: column;
@@ -188,13 +189,13 @@ p {
   padding: 3em;
 
   border-radius: 1em;
-  background-color: #564d4d;
+  background-color: #4c4343;
 
   align-items: center;
 }
 
 .contact-sec-cont * {
-  background-color: #564d4d;
+  background-color: #4c4343;
 }
 
 .contact-form {
@@ -296,16 +297,6 @@ textarea[type='text']:focus {
   display: flex;
 
   gap: 1em;
-}
-
-.proj-media-cont {
-  display: flex;
-
-  align-items: center;
-}
-
-.proj-media {
-  max-height: 16em;
 }
 
 .buttons-cont {

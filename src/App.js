@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import Technologies from './Technologies';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Projects />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="technologies" element={<Technologies />} />
           </Routes>
         </div>
         <Footer />

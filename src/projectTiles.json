@@ -8,7 +8,7 @@
         "desc": "A responsive webpage with \"tabbed\" browsing written purely in JavaScript (minimal HTML) as an exercise in JavaScript fundamentals and implemeneted using Webpack and ES6 modules."
       }
     ],
-    "media": "restaurant-page.png",
+    "media": "projectImgs/restaurant-page.png",
     "buttons": [
       {
         "id": 1,
@@ -35,7 +35,7 @@
         "desc": "Take a look around."
       }
     ],
-    "media": "portfolio-website.png",
+    "media": "projectImgs/portfolio-website.png",
     "buttons": [
       {
         "id": 1,
