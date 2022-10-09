@@ -5,7 +5,11 @@
     "desc": [
       {
         "id": 1,
-        "desc": "A responsive webpage with \"tabbed\" browsing written purely in JavaScript (minimal HTML) as an exercise in JavaScript fundamentals and implemeneted using Webpack and ES6 modules."
+        "desc": "A responsive webpage with tabbed browsing written purely in JavaScript as an exercise in JavaScript fundamentals."
+      },
+      {
+        "id": 2,
+        "desc": "Implemeneted using Webpack and ES6 modules."
       }
     ],
     "media": "projectImgs/restaurant-page.png",

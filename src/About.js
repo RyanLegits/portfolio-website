@@ -11,10 +11,19 @@ const About = () => {
         <div className="about-text-cont">
           <h5>About Me</h5>
           <p>
-            This is my really cool project that I'm super proud of! Look at all
-            the cool stuff!
+            Hello, my name is Ryan Legits! I'm a full-stack web developer. I
+            love building websites, especially those that can help others.
           </p>
-          <p>And here is some more text to take up some room.</p>
+          <p>
+            I specialize in JavaScript, paired with React, on the front-end and
+            Python with Django on the back-end.
+          </p>
+          <p>
+            I've been working as a flight attendant while attending school,
+            which has given me great perspective on the customer experience. I
+            have also worked in IT, and I'm ready to bring my tech knowledge to
+            the next level.
+          </p>
         </div>
       </div>
     </div>

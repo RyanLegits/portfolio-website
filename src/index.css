@@ -133,6 +133,8 @@ p {
 
 .about-sec-cont {
   gap: 2em;
+  display: flex;
+  align-items: center;
 }
 
 .projects,
@@ -167,7 +169,8 @@ p {
   .proj-cont,
   .hero,
   .about,
-  .about-sec-cont {
+  .about-sec-cont,
+  .technologies {
     flex-direction: column;
 
     padding: 2em;
