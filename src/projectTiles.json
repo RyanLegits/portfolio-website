@@ -17,17 +17,39 @@
       {
         "id": 1,
         "buttonName": "Live Site",
-        "buttonLink": "link1"
+        "buttonLink": "https://www.ryanlegits.com/restaurant-page/"
       },
       {
         "id": 2,
         "buttonName": "Frontend",
-        "buttonLink": "https://github.com/RyanLegits/restaurantPage"
+        "buttonLink": "https://github.com/RyanLegits/restaurant-page"
       }
     ]
   },
   {
     "id": 2,
+    "title": "Updo Backend",
+    "desc": [
+      {
+        "id": 1,
+        "desc": "A REST API using the Django Rest Framework that serializes a Django model into JSON, allowing CRUD operations by end users."
+      },
+      {
+        "id": 2,
+        "desc": "Built to be used for a cross-platform todo list app written in React and React Native."
+      }
+    ],
+    "media": "projectImgs/updo-backend.png",
+    "buttons": [
+      {
+        "id": 1,
+        "buttonName": "Backend",
+        "buttonLink": "https://github.com/RyanLegits/updobackend"
+      }
+    ]
+  },
+  {
+    "id": 3,
     "title": "Portfolio Website",
     "desc": [
       {
@@ -44,7 +66,7 @@
       {
         "id": 1,
         "buttonName": "Live Site",
-        "buttonLink": "link1"
+        "buttonLink": "https://www.ryanlegits.com/"
       },
       {
         "id": 2,
