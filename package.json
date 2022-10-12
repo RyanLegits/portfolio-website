@@ -43,7 +43,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "react-uuid": "^1.0.3"
   },
   "homepage": "https://RyanLegits.github.io"
 }

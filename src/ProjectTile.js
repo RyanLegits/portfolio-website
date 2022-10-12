@@ -1,4 +1,5 @@
 import tiles from './projectTiles.json';
+import uuid from 'react-uuid';
 
 const ProjectTile = () => {
   return (
@@ -7,7 +8,7 @@ const ProjectTile = () => {
       <div className="proj-sec-cont">
         {/* Create all project tiles dynamically fron JSON using 'map' */}
         {tiles.map((tile) => (
-          <div className="proj-cont" key={tile.id}>
+          <div className="proj-cont" key={uuid()}>
             <div className="proj-media-cont">
               <img
                 className="proj-media"
@@ -19,7 +20,7 @@ const ProjectTile = () => {
               <h5>{tile.title}</h5>
               {/* List out all descriptions for each project from JSON */}
               {tile.desc.map((desc) => (
-                <p key={desc.id}>{desc.desc}</p>
+                <p key={uuid()}>{desc.desc}</p>
               ))}
               {/* Create buttons with links for each project from JSON */}
               <div className="buttons-cont">
@@ -29,7 +30,7 @@ const ProjectTile = () => {
                     rel="noopener noreferrer"
                     target="_blank"
                     className="button"
-                    key={buttons.id}
+                    key={uuid()}
                   >
                     {buttons.buttonName}
                   </a>

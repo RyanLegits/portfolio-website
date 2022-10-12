@@ -11,6 +11,8 @@ import iconVSCode from './icons/iconVSCode.png';
 import iconESLint from './icons/iconESLint.png';
 import iconIllustrator from './icons/iconIllustrator.png';
 
+import uuid from 'react-uuid';
+
 const Technologies = () => {
   const icons = [
     iconJS,
@@ -32,12 +34,7 @@ const Technologies = () => {
       <h2>Technologies</h2>
       <div className="technologies-cont">
         {icons.map((icon, index) => (
-          <img
-            src={icon}
-            className="icon"
-            alt={'icon-' + index}
-            key={'icon-' + index}
-          />
+          <img src={icon} className="icon" alt={'icon-' + index} key={uuid()} />
         ))}
       </div>
     </div>
