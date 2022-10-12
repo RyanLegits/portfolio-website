@@ -9,7 +9,7 @@
       },
       {
         "id": 2,
-        "desc": "Implemeneted using Webpack and ES6 modules."
+        "desc": "Implemented using Webpack and ES6 modules."
       }
     ],
     "media": "projectImgs/restaurant-page.png",
@@ -32,7 +32,11 @@
     "desc": [
       {
         "id": 1,
-        "desc": "A REST API using the Django Rest Framework that serializes a Django model into JSON, allowing CRUD operations by end users."
+        "desc": "A REST API allowing CRUD operations by end users."
+      },
+      {
+        "id": 2,
+        "desc": "Uses the Django Rest Framework to serialize a Django model into JSON."
       },
       {
         "id": 2,
